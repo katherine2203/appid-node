@@ -41,5 +41,5 @@ spec:
   type: NodePort
   ports:
    - port: 80
-     nodePort: 30000
+     nodePort: 31000
      # In an IBM Cloud Container Service Lite Cluster, we have to create the services with Node ports that have non standard ports in the 30000-32767 range.
